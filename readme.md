@@ -1,5 +1,5 @@
 ## Convey
-> What if conjure apps could communicate by simply using channels? - bnert
+> What if clonure apps could communicate by simply using channels, regardless of if they're over the network or not? - bnert
 
 This library is currently **experimental**, and as such, use at your own
 risk.
