@@ -4,6 +4,10 @@
 This library is currently **experimental**, and as such, use at your own
 risk.
 
+The intention is to transparently "hook in" to messaging/queueing systems and services
+via the Buffer protocol in `clojure.core.async`, allowing puts/takes to
+async channels to put/pull messages from the backing system/service.
+
 ### Idea
 
 There are many "transport" kinds an application may need. A non
@@ -100,7 +104,7 @@ As of 08/27/2023, the following are planned to be implemented, at some point:
 - [ ] TCP
 - [ ] UDP
 - [x] Websockets
-  - status: basic example implemented
+  - status: clj (aplha), cljs (not implemented)
 - [ ] HTTP (via long poll `GET` and `POST`)
 - [ ] HTTP (via `POST`/ `SSE`)
 
