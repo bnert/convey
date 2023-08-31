@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps
+ {org.clojure/core.async {:mvn/version "1.6.681"}}
+ :aliases
+ {:dev {:extra-deps  {http-kit/http-kit {:mvn/version "2.7.0"}}
+        :extra-paths ["development"]}}}
+
